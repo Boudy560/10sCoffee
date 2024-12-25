@@ -1,0 +1,15 @@
+D:\10sCoffee\tenscoffe\tenscoffe\bin\Debug\tenscoffe.exe.config
+D:\10sCoffee\tenscoffe\tenscoffe\bin\Debug\tenscoffe.exe
+D:\10sCoffee\tenscoffe\tenscoffe\bin\Debug\tenscoffe.pdb
+D:\10sCoffee\tenscoffe\tenscoffe\obj\Debug\tenscoffe.csproj.AssemblyReference.cache
+D:\10sCoffee\tenscoffe\tenscoffe\obj\Debug\MainWindow.g.cs
+D:\10sCoffee\tenscoffe\tenscoffe\obj\Debug\App.g.cs
+D:\10sCoffee\tenscoffe\tenscoffe\obj\Debug\tenscoffe_MarkupCompile.cache
+D:\10sCoffee\tenscoffe\tenscoffe\obj\Debug\tenscoffe_MarkupCompile.lref
+D:\10sCoffee\tenscoffe\tenscoffe\obj\Debug\MainWindow.baml
+D:\10sCoffee\tenscoffe\tenscoffe\obj\Debug\tenscoffe.g.resources
+D:\10sCoffee\tenscoffe\tenscoffe\obj\Debug\tenscoffe.Properties.Resources.resources
+D:\10sCoffee\tenscoffe\tenscoffe\obj\Debug\tenscoffe.csproj.GenerateResource.cache
+D:\10sCoffee\tenscoffe\tenscoffe\obj\Debug\tenscoffe.csproj.CoreCompileInputs.cache
+D:\10sCoffee\tenscoffe\tenscoffe\obj\Debug\tenscoffe.exe
+D:\10sCoffee\tenscoffe\tenscoffe\obj\Debug\tenscoffe.pdb
