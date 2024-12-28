@@ -4,10 +4,34 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:tenscoffe"
-        mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        mc:Ignorable="d" Background="#FFFAFF00" Title="MainWindow">
     <Grid>
-        <Label Content="Enter your name" HorizontalAlignment="Left" Margin="0,10,0,0" VerticalAlignment="Top" Width="102" Background="#FFC3ABAB"/>
-
+        <Label Content="10" HorizontalAlignment="Left" VerticalAlignment="Top" Cursor="" FontSize="50" FontFamily="Eras ITC" FontWeight="Bold" FontStyle="Italic" Width="81"/>
+        <Label Content="S" HorizontalAlignment="Left" VerticalAlignment="Top" Cursor="" FontSize="35" FontFamily="Eras ITC" FontWeight="Bold" FontStyle="Italic" Width="42" Margin="58,31,0,0" Height="51"/>
+        <Label Content="قسم انشاء الفوتير " Margin="982,50,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="35"/>
+        <Button Content="فاتورة بيع البن" Margin="1050,120,0,849" Click="Button_Click" FontSize="30" FontWeight="Bold" Background="Black" BorderBrush="White" Foreground="White"/>
+        <Button Content="فاتورة بيع نكهات البن" HorizontalAlignment="Left" Margin="744,120,0,0" VerticalAlignment="Top" Click="Button_Click" FontSize="30" FontWeight="Bold" Background="Black" BorderBrush="White" Foreground="White" Padding="10,10,10,10"/>
+        <Button Content="فاتورة بيع المشروبات" HorizontalAlignment="Left" Margin="438,120,0,0" VerticalAlignment="Top" Click="Button_Click" FontSize="30" FontWeight="Bold" Background="Black" BorderBrush="White" Foreground="White" Padding="10,10,10,10"/>
+        <Button Content="فاتورة بيع النحاس" HorizontalAlignment="Left" Margin="172,120,0,0" VerticalAlignment="Top" Click="Button_Click" FontSize="30" FontWeight="Bold" Background="Black" BorderBrush="White" Foreground="White" Padding="10,10,10,10"/>
+        <Label Content="القسم الخاص بالجرد" HorizontalAlignment="Left" Margin="959,221,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="35"/>
+        <Button Content="جرد المبيعات اليوميه" HorizontalAlignment="Left" Margin="976,291,0,0" VerticalAlignment="Top" Click="Button_Click" FontSize="30" FontWeight="Bold" Background="Black" BorderBrush="White" Foreground="White" Padding="10,10,10,10" ScrollViewer.CanContentScroll="True"/>
+        <Button Content="جرد المبيعات الشهريه" HorizontalAlignment="Left" Margin="666,291,0,0" VerticalAlignment="Top" Click="Button_Click" FontSize="30" FontWeight="Bold" Background="Black" BorderBrush="White" Foreground="White" Padding="10,10,10,10" ScrollViewer.CanContentScroll="True"/>
+        <Button Content="جرد المبيعات السنويه" HorizontalAlignment="Left" Margin="357,291,0,0" VerticalAlignment="Top" Click="Button_Click" FontSize="30" FontWeight="Bold" Background="Black" BorderBrush="White" Foreground="White" Padding="10,10,10,10" ScrollViewer.CanContentScroll="True"/>
+        <Button Content="جرد مخزون البن المتبقى " HorizontalAlignment="Left" Margin="10,291,0,0" VerticalAlignment="Top" Click="Button_Click" FontSize="30" FontWeight="Bold" Background="Black" BorderBrush="White" Foreground="White" Padding="10,10,10,10" ScrollViewer.CanContentScroll="True"/>
+        <Button Content="جرد مخزون النكهات المتبقى" HorizontalAlignment="Left" Margin="893,396,0,0" VerticalAlignment="Top" Click="Button_Click" FontSize="30" FontWeight="Bold" Background="Black" BorderBrush="White" Foreground="White" Padding="10,10,10,10" ScrollViewer.CanContentScroll="True"/>
+        <Button Content="جرد مخزون النحاس المتبقى" HorizontalAlignment="Left" Margin="510,396,0,0" VerticalAlignment="Top" Click="Button_Click" FontSize="30" FontWeight="Bold" Background="Black" BorderBrush="White" Foreground="White" Padding="10,10,10,10" ScrollViewer.CanContentScroll="True"/>
+        <Label Content="القسم الخاص بالمصروفات" HorizontalAlignment="Left" Margin="864,498,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="35"/>
+        <Button Content="مصروفات خاصه بالمحل" HorizontalAlignment="Left" Margin="939,571,0,0" VerticalAlignment="Top" Click="Button_Click" FontSize="30" FontWeight="Bold" Background="Black" BorderBrush="White" Foreground="White" Padding="10,10,10,10"/>
+        <Button Content="مصروفات شخصيه" HorizontalAlignment="Left" Margin="656,571,0,0" VerticalAlignment="Top" Click="Button_Click" FontSize="30" FontWeight="Bold" Background="Black" BorderBrush="White" Foreground="White" Padding="10,10,10,10"/>
+        <Label Content="القسم الخاص بالمصروفات" HorizontalAlignment="Left" Margin="861,694,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="35"/>
+        <Button Content="تعديل مخزون البن" HorizontalAlignment="Left" Margin="1012,773,0,0" VerticalAlignment="Top" Click="Button_Click" FontSize="30" FontWeight="Bold" Background="Black" BorderBrush="White" Foreground="White" Padding="10,10,10,10"/>
+        <Button Content="تعديل مخزون النكهات" HorizontalAlignment="Left" Margin="966,874,0,0" VerticalAlignment="Top" Click="Button_Click" FontSize="30" FontWeight="Bold" Background="Black" BorderBrush="White" Foreground="White" Padding="10,10,10,10"/>
+        <Button Content="اضافة مخزون البن" HorizontalAlignment="Left" Margin="684,773,0,0" VerticalAlignment="Top" Click="Button_Click" FontSize="30" FontWeight="Bold" Background="Black" BorderBrush="White" Foreground="White" Padding="10,10,10,10"/>
+        <Button Content="أضافة مخزون النكهات" HorizontalAlignment="Left" Margin="639,874,0,0" VerticalAlignment="Top" Click="Button_Click" FontSize="30" FontWeight="Bold" Background="Black" BorderBrush="White" Foreground="White" Padding="10,10,10,10"/>
+        <Button Content="حذف مخزون البن" HorizontalAlignment="Left" Margin="348,773,0,0" VerticalAlignment="Top" Click="Button_Click" FontSize="30" FontWeight="Bold" Background="Black" BorderBrush="White" Foreground="White" Padding="10,10,10,10"/>
+        <Button Content="حذف مخزون النكهات" HorizontalAlignment="Left" Margin="302,874,0,0" VerticalAlignment="Top" Click="Button_Click" FontSize="30" FontWeight="Bold" Background="Black" BorderBrush="White" Foreground="White" Padding="10,10,10,10"/>
+        <Button Content="تعديل مخزون النحاس" HorizontalAlignment="Left" Margin="971,969,0,0" VerticalAlignment="Top" Click="Button_Click" FontSize="30" FontWeight="Bold" Background="Black" BorderBrush="White" Foreground="White" Padding="10,10,10,10"/>
+        <Button Content="أضافة مخزون النحاس" HorizontalAlignment="Left" Margin="644,969,0,0" VerticalAlignment="Top" Click="Button_Click" FontSize="30" FontWeight="Bold" Background="Black" BorderBrush="White" Foreground="White" Padding="10,10,10,10"/>
+        <Button Content="حذف مخزون النحاس" HorizontalAlignment="Left" Margin="308,969,0,0" VerticalAlignment="Top" Click="Button_Click" FontSize="30" FontWeight="Bold" Background="Black" BorderBrush="White" Foreground="White" Padding="10,10,10,10"/>
     </Grid>
 </Window>
