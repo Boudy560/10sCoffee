@@ -58,7 +58,8 @@ namespace tenscoffe
         //event for buttons 
         private void besns(object sender, RoutedEventArgs e)
         {
-
+            Bens_Bill ben = new Bens_Bill();
+            ben.Show();
         }
 
         private void flavors(object sender, RoutedEventArgs e)

@@ -28,3 +28,11 @@ E:\10sCoffee\tenscoffe\tenscoffe\obj\Debug\tenscoffe.g.resources
 E:\10sCoffee\tenscoffe\tenscoffe\obj\Debug\tenscoffe.Properties.Resources.resources
 E:\10sCoffee\tenscoffe\tenscoffe\obj\Debug\tenscoffe.csproj.GenerateResource.cache
 E:\10sCoffee\tenscoffe\tenscoffe\obj\Debug\tenscoffe.csproj.CoreCompileInputs.cache
+E:\10sCoffee\tenscoffe\tenscoffe\obj\Debug\Bens_Bill.g.cs
+E:\10sCoffee\tenscoffe\tenscoffe\obj\Debug\Bens_Bill.baml
+E:\10sCoffee\tenscoffe\tenscoffe\obj\Debug\Copper_Bill.g.cs
+E:\10sCoffee\tenscoffe\tenscoffe\obj\Debug\Drinks_Bill.g.cs
+E:\10sCoffee\tenscoffe\tenscoffe\obj\Debug\Flavoers_Bill.g.cs
+E:\10sCoffee\tenscoffe\tenscoffe\obj\Debug\Copper_Bill.baml
+E:\10sCoffee\tenscoffe\tenscoffe\obj\Debug\Drinks_Bill.baml
+E:\10sCoffee\tenscoffe\tenscoffe\obj\Debug\Flavoers_Bill.baml
