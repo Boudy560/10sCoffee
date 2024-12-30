@@ -10,17 +10,16 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
 using System.Windows.Shapes;
 
 namespace tenscoffe
 {
     /// <summary>
-    /// Interaction logic for Flavoers_Bill.xaml
+    /// Interaction logic for Flavore_Is_Left_Screen.xaml
     /// </summary>
-    public partial class Flavoers_Bill : Page
+    public partial class Flavore_Is_Left_Screen : Window
     {
-        public Flavoers_Bill()
+        public Flavore_Is_Left_Screen()
         {
             InitializeComponent();
         }

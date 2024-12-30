@@ -7,7 +7,7 @@
         Width="1400" 
         Height="800"
         WindowStartupLocation="CenterScreen"
-        mc:Ignorable="d" Background="#FFFAFF00" Title="10s Coffee" d:DesignWidth="1824.36">
+        mc:Ignorable="d" Background="#AAAC59" Title="10s Coffee" d:DesignWidth="1824.36">
     <Grid>
         <Label Content="10S" HorizontalAlignment="Left" VerticalAlignment="Top" FontFamily="Arial" FontSize="72" FontWeight="Bold"/>
         <!-- بداية تصميم خاص بالوقت-->

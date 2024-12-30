@@ -55,7 +55,21 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Personal_Expenses_Screen.xaml.cs">
+      <DependentUpon>Personal_Expenses_Screen.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Stor_Specific_Expenses_Screen.xaml.cs">
+      <DependentUpon>Stor_Specific_Expenses_Screen.xaml</DependentUpon>
+    </Compile>
+    <Page Include="Annual_Salas_Screen.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Bens_Bill.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Ben_Is_Left_Screen.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -63,11 +77,23 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Copper_Is_Left_Screen.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Daily_Salas_Screen.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Drinks_Bill.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Flavoers_Bill.xaml">
+    <Page Include="Flavore_Is_Left_Screen.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Flavors_Biil.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -75,6 +101,9 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
+    <Compile Include="Annual_Salas_Screen.xaml.cs">
+      <DependentUpon>Annual_Salas_Screen.xaml</DependentUpon>
+    </Compile>
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
@@ -82,21 +111,48 @@
     <Compile Include="Bens_Bill.xaml.cs">
       <DependentUpon>Bens_Bill.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Ben_Is_Left_Screen.xaml.cs">
+      <DependentUpon>Ben_Is_Left_Screen.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Copper_Bill.xaml.cs">
       <DependentUpon>Copper_Bill.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Copper_Is_Left_Screen.xaml.cs">
+      <DependentUpon>Copper_Is_Left_Screen.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Daily_Salas_Screen.xaml.cs">
+      <DependentUpon>Daily_Salas_Screen.xaml</DependentUpon>
     </Compile>
     <Compile Include="Drinks_Bill.xaml.cs">
       <DependentUpon>Drinks_Bill.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Flavoers_Bill.xaml.cs">
-      <DependentUpon>Flavoers_Bill.xaml</DependentUpon>
+    <Compile Include="Flavore_Is_Left_Screen.xaml.cs">
+      <DependentUpon>Flavore_Is_Left_Screen.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Flavors_Biil.xaml.cs">
+      <DependentUpon>Flavors_Biil.xaml</DependentUpon>
     </Compile>
     <Compile Include="MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="Monthly_Salas_Screen.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Personal_Expenses_Screen.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Stor_Specific_Expenses_Screen.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Monthly_Salas_Screen.xaml.cs">
+      <DependentUpon>Monthly_Salas_Screen.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
     </Compile>

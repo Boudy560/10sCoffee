@@ -64,57 +64,68 @@ namespace tenscoffe
 
         private void flavors(object sender, RoutedEventArgs e)
         {
-
+            Flavors_Biil flavors_Biil = new Flavors_Biil(); 
+            flavors_Biil.Show();
         }
 
         private void copper(object sender, RoutedEventArgs e)
         {
-
+            Copper_Bill cen = new Copper_Bill();
+            cen.Show();
         }
 
         private void drinks(object sender, RoutedEventArgs e)
         {
-
+            Drinks_Bill dr = new Drinks_Bill();
+            dr.Show();
         }
 
         private void daily_sales(object sender, RoutedEventArgs e)
         {
-
+            Daily_Salas_Screen dSS = new Daily_Salas_Screen();
+            dSS.Show();
         }
 
         private void monthly_salas(object sender, RoutedEventArgs e)
         {
-
+            Monthly_Salas_Screen mss = new Monthly_Salas_Screen();  
+            mss.Show(); 
         }
 
         private void ben_is_left(object sender, RoutedEventArgs e)
         {
-
+            Ben_Is_Left_Screen bils = new Ben_Is_Left_Screen(); 
+            bils.Show();
         }
 
         private void annual_salas(object sender, RoutedEventArgs e)
         {
-
+            Annual_Salas_Screen ass =   new Annual_Salas_Screen();  
+            ass.Show();
         }
 
         private void flavors_is_left(object sender, RoutedEventArgs e)
         {
-
+            Flavore_Is_Left_Screen fils = new  Flavore_Is_Left_Screen();
+            fils.Show();
         }
 
         private void copper_is_left(object sender, RoutedEventArgs e)
         {
-
+            Copper_Is_Left_Screen cils = new Copper_Is_Left_Screen();
+            cils.Show();
         }
 
         private void expen_1(object sender, RoutedEventArgs e)
         {
-
+            Stor_Specific_Expenses_Screen sses =new Stor_Specific_Expenses_Screen();
+            sses.Show();
         }
 
         private void expen_2(object sender, RoutedEventArgs e)
         {
-
+            Personal_Expenses_Screen pes = new Personal_Expenses_Screen();
+            pes.Show();
         }
     }
 }

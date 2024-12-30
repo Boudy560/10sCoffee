@@ -23,5 +23,15 @@ namespace tenscoffe
         {
             InitializeComponent();
         }
+
+        private void DataGrid_SelectionChanged()
+        {
+
+        }
+
+        private void DataGrid_SelectionChanged()
+        {
+
+        }
     }
 }
