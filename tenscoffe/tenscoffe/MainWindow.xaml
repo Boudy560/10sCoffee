@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:tenscoffe"
         Width="1400" 
-        Height="800"
+        Height="900"
         WindowStartupLocation="CenterScreen"
         mc:Ignorable="d" Background="#AAAC59" Title="10s Coffee" d:DesignWidth="1824.36">
     <Grid>
@@ -49,5 +49,18 @@
         <Button Content="مصروفات خاصه بالمحل" HorizontalAlignment="Left" Margin="1002,512,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.265,0.603" Width="273" Height="47" FontWeight="Bold" FontSize="30" Cursor="" FontFamily="Arial" Background="Black" Foreground="White" Click="expen_1"/>
         <Button Content="مصروفات شخصيه" HorizontalAlignment="Left" Margin="753,512,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.265,0.603" Width="215" Height="47" FontWeight="Bold" FontSize="30" Cursor="" FontFamily="Arial" Background="Black" Foreground="White" Click="expen_2"/>
         <!--نهاية تصميم قسم الخاص بالمصروفات -->
+        
+        <!--    -->
+        <Label Content="القسم الخاص بالتحكم" HorizontalAlignment="Left" Margin="990,573,0,0" VerticalAlignment="Top" FontSize="40" FontFamily="Arial" FontWeight="Bold"/>
+        <Button Content="تعديل مخزون البن" HorizontalAlignment="Left" Margin="1083,634,0,0" VerticalAlignment="Top" FontSize="30" FontFamily="Arial" FontWeight="Bold" Background="Black" Foreground="White" Height="50" Click="edit_cofee" Width="190"/>
+        <Button Content="اضافة مخزون البن" HorizontalAlignment="Left" Margin="797,634,0,0" VerticalAlignment="Top" FontSize="30" FontFamily="Arial" FontWeight="Bold" Background="Black" Foreground="White" Height="50" Click="add_cofee" Width="190"/>
+        <Button Content="حذف مخزون البن" HorizontalAlignment="Left" Margin="521,634,0,0" VerticalAlignment="Top" FontSize="30" FontFamily="Arial" FontWeight="Bold" Background="Black" Foreground="White" Height="50" Click="delete_cofee" Width="190"/>
+        <Button Content="تعديل مخزون النكهات" HorizontalAlignment="Left" Margin="1045,704,0,0" VerticalAlignment="Top" FontSize="30" FontFamily="Arial" FontWeight="Bold" Background="Black" Foreground="White" Height="50" Click="edit_flavor" Width="230"/>
+        <Button Content="اضافة مخزون النكهات" HorizontalAlignment="Left" Margin="777,704,0,0" VerticalAlignment="Top" FontSize="30" FontFamily="Arial" FontWeight="Bold" Background="Black" Foreground="White" Height="50" Click="add_flavor" Width="230"/>
+        <Button Content="حذف مخزون النكهات" HorizontalAlignment="Left" Margin="501,704,0,0" VerticalAlignment="Top" FontSize="30" FontFamily="Arial" FontWeight="Bold" Background="Black" Foreground="White" Height="50" Click="delete_flavor" Width="230"/>
+        <Button Content="تعديل مخزون النحاس" HorizontalAlignment="Left" Margin="1045,775,0,0" VerticalAlignment="Top" FontSize="30" FontFamily="Arial" FontWeight="Bold" Background="Black" Foreground="White" Height="50" Click="edit_copper" Width="230"/>
+        <Button Content="اضافة مخزون النحاس" HorizontalAlignment="Left" Margin="777,775,0,0" VerticalAlignment="Top" FontSize="30" FontFamily="Arial" FontWeight="Bold" Background="Black" Foreground="White" Height="50" Click="add_copper" Width="230"/>
+        <Button Content="حذف مخزون النحاس" HorizontalAlignment="Left" Margin="501,775,0,0" VerticalAlignment="Top" FontSize="30" FontFamily="Arial" FontWeight="Bold" Background="Black" Foreground="White" Height="50" Click="delete_copper" Width="230"/>
+        
     </Grid>
 </Window>

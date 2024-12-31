@@ -127,5 +127,50 @@ namespace tenscoffe
             Personal_Expenses_Screen pes = new Personal_Expenses_Screen();
             pes.Show();
         }
+
+        private void edit_cofee(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void add_cofee(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void delete_cofee(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void edit_flavor(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void add_flavor(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void delete_flavor(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void edit_copper(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void add_copper(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void delete_copper(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

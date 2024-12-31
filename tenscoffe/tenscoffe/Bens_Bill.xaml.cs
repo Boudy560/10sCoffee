@@ -29,9 +29,6 @@ namespace tenscoffe
 
         }
 
-        private void DataGrid_SelectionChanged()
-        {
 
-        }
     }
 }

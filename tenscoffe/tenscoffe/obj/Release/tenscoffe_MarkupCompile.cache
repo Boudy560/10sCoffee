@@ -4,11 +4,11 @@
 winexe
 C#
 .cs
-D:\10sCoffee\tenscoffe\tenscoffe\obj\Debug\
+D:\10sCoffee\tenscoffe\tenscoffe\obj\Release\
 tenscoffe
 none
 false
-DEBUG;TRACE
+TRACE
 D:\10sCoffee\tenscoffe\tenscoffe\App.xaml
 131212776068
 
@@ -16,5 +16,5 @@ D:\10sCoffee\tenscoffe\tenscoffe\App.xaml
 13-1310406943
 Annual_Salas_Screen.xaml;Bens_Bill.xaml;Ben_Is_Left_Screen.xaml;Copper_Bill.xaml;Copper_Is_Left_Screen.xaml;Daily_Salas_Screen.xaml;Drinks_Bill.xaml;Flavore_Is_Left_Screen.xaml;Flavors_Biil.xaml;MainWindow.xaml;Monthly_Salas_Screen.xaml;Personal_Expenses_Screen.xaml;Stor_Specific_Expenses_Screen.xaml;
 
-False
+True
 
