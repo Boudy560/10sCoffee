@@ -4,8 +4,8 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:tenscoffe"
-        Width="1400" 
-        Height="880"
+        Width="1350" 
+        Height="830"
         WindowStartupLocation="CenterScreen"
         mc:Ignorable="d" Background="#AAAC59" Title="10s Coffee" d:DesignWidth="1824.36">
     <Grid>
@@ -14,12 +14,12 @@
         <TextBlock x:Name="TimeTextBlock" 
                    VerticalAlignment="Top" 
                    FontSize="24" 
-                   FontWeight="Bold" Margin="0,12,419,0" RenderTransformOrigin="0.5,0.5" HorizontalAlignment="Right" Width="327" Height="123" >
+                   FontWeight="Bold" Margin="0,12,419,0" RenderTransformOrigin="0.5,0.5" HorizontalAlignment="Right" Width="327" Height="115" >
             <TextBlock.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>
-                    <SkewTransform/>
-                    <RotateTransform Angle="-0.209"/>
+                    <SkewTransform AngleX="0.028"/>
+                    <RotateTransform Angle="-0.196"/>
                     <TranslateTransform/>
                 </TransformGroup>
             </TextBlock.RenderTransform>
@@ -27,40 +27,40 @@
         <!-- نهاية تصميم خاص بالوقت-->
 
         <!--بداية تصميم قسم انشاء الفواتير -->
-        <Label Content="قسم انشاء الفوتير " HorizontalAlignment="Left" Margin="1035,87,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="40" FontFamily="Arial"/>
-        <Button Content="فاتورة بيع بن" HorizontalAlignment="Left" Margin="1091,152,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.265,0.603" Width="184" Height="47" FontWeight="Bold" FontSize="30" Cursor="" FontFamily="Arial" Background="Black" Foreground="White" Click="besns"/>
-        <Button Content="فاتورة بيع نكهات" HorizontalAlignment="Left" Margin="876,152,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.265,0.603" Width="184" Height="47" FontWeight="Bold" FontSize="30" Cursor="" FontFamily="Arial" Background="Black" Foreground="White" Click="flavors"/>
-        <Button Content="فاتورة بيع مشروبات" HorizontalAlignment="Left" Margin="378,152,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.265,0.603" Width="246" Height="47" FontWeight="Bold" FontSize="30" Cursor="" FontFamily="Arial" Background="Black" Foreground="White" Click="drinks"/>
-        <Button Content="فاتورة بيع نحاس" HorizontalAlignment="Left" Margin="661,152,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.265,0.603" Width="184" Height="47" FontWeight="Bold" FontSize="30" Cursor="" FontFamily="Arial" Background="Black" Foreground="White" Click="copper"/>
+        <Label Content="قسم انشاء الفوتير " HorizontalAlignment="Left" Margin="1035,82,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="40" FontFamily="Arial" Height="53"/>
+        <Button Content="فاتورة بيع بن" HorizontalAlignment="Left" Margin="1091,143,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.265,0.603" Width="184" Height="44" FontWeight="Bold" FontSize="30" Cursor="" FontFamily="Arial" Background="Black" Foreground="White" Click="besns"/>
+        <Button Content="فاتورة بيع نكهات" HorizontalAlignment="Left" Margin="876,143,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.265,0.603" Width="184" Height="44" FontWeight="Bold" FontSize="30" Cursor="" FontFamily="Arial" Background="Black" Foreground="White" Click="flavors"/>
+        <Button Content="فاتورة بيع مشروبات" HorizontalAlignment="Left" Margin="378,143,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.265,0.603" Width="246" Height="44" FontWeight="Bold" FontSize="30" Cursor="" FontFamily="Arial" Background="Black" Foreground="White" Click="drinks"/>
+        <Button Content="فاتورة بيع نحاس" HorizontalAlignment="Left" Margin="661,143,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.265,0.603" Width="184" Height="44" FontWeight="Bold" FontSize="30" Cursor="" FontFamily="Arial" Background="Black" Foreground="White" Click="copper"/>
         <!--نهاية تصميم قسم انشاء الفواتير -->
 
         <!--بداية تصميم قسم الخاص بالجرد  -->
-        <Label Content="قسم الخاص بالجرد اليومى " HorizontalAlignment="Left" Margin="910,222,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="40" FontFamily="Arial"/>
-        <Button Content="جرد المبيعات اليوميه" HorizontalAlignment="Left" Margin="1058,291,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.265,0.603" Width="215" Height="47" FontWeight="Bold" FontSize="30" Cursor="" FontFamily="Arial" Background="Black" Foreground="White" Click="daily_sales"/>
-        <Button Content="جرد المبيعات الشهريه" HorizontalAlignment="Left" Margin="795,291,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.265,0.603" Width="232" Height="47" FontWeight="Bold" FontSize="30" Cursor="" FontFamily="Arial" Background="Black" Foreground="White" Click="monthly_salas"/>
-        <Button Content="جرد المبيعات السنويه" HorizontalAlignment="Left" Margin="214,291,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.265,0.603" Width="239" Height="47" FontWeight="Bold" FontSize="30" Cursor="" FontFamily="Arial" Background="Black" Foreground="White" Click="annual_salas"/>
-        <Button Content="جرد مخزون البن المتبقى " HorizontalAlignment="Left" Margin="499,291,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.265,0.603" Width="260" Height="47" FontWeight="Bold" FontSize="30" Cursor="" FontFamily="Arial" Background="Black" Foreground="White" Click="ben_is_left"/>
-        <Button Content="جرد مخزون النكهات المتبقى" HorizontalAlignment="Left" Margin="966,358,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.265,0.603" Width="307" Height="47" FontWeight="Bold" FontSize="30" Cursor="" FontFamily="Arial" Background="Black" Foreground="White" Click="flavors_is_left"/>
-        <Button Content="جرد مخزون النحاس المتبقى" HorizontalAlignment="Left" Margin="589,358,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.265,0.603" Width="328" Height="47" FontWeight="Bold" FontSize="30" Cursor="" FontFamily="Arial" Background="Black" Foreground="White" Click="copper_is_left"/>
+        <Label Content="قسم الخاص بالجرد اليومى " HorizontalAlignment="Left" Margin="910,208,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="40" FontFamily="Arial" Height="53"/>
+        <Button Content="جرد المبيعات اليوميه" HorizontalAlignment="Left" Margin="1058,273,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.265,0.603" Width="215" Height="44" FontWeight="Bold" FontSize="30" Cursor="" FontFamily="Arial" Background="Black" Foreground="White" Click="daily_sales"/>
+        <Button Content="جرد المبيعات الشهريه" HorizontalAlignment="Left" Margin="795,273,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.265,0.603" Width="232" Height="44" FontWeight="Bold" FontSize="30" Cursor="" FontFamily="Arial" Background="Black" Foreground="White" Click="monthly_salas"/>
+        <Button Content="جرد المبيعات السنويه" HorizontalAlignment="Left" Margin="214,273,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.265,0.603" Width="239" Height="44" FontWeight="Bold" FontSize="30" Cursor="" FontFamily="Arial" Background="Black" Foreground="White" Click="annual_salas"/>
+        <Button Content="جرد مخزون البن المتبقى " HorizontalAlignment="Left" Margin="499,273,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.265,0.603" Width="260" Height="44" FontWeight="Bold" FontSize="30" Cursor="" FontFamily="Arial" Background="Black" Foreground="White" Click="ben_is_left"/>
+        <Button Content="جرد مخزون النكهات المتبقى" HorizontalAlignment="Left" Margin="966,336,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.265,0.603" Width="307" Height="44" FontWeight="Bold" FontSize="30" Cursor="" FontFamily="Arial" Background="Black" Foreground="White" Click="flavors_is_left"/>
+        <Button Content="جرد مخزون النحاس المتبقى" HorizontalAlignment="Left" Margin="589,336,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.265,0.603" Width="328" Height="44" FontWeight="Bold" FontSize="30" Cursor="" FontFamily="Arial" Background="Black" Foreground="White" Click="copper_is_left"/>
         <!--نهاية تصميم قسم انشاء الفواتير -->
 
         <!--بداية تصميم قسم الخاص بالمصروفات -->
-        <Label Content="قسم الخاص بالمصروفات  " HorizontalAlignment="Left" Margin="912,451,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="40" FontFamily="Arial"/>
-        <Button Content="مصروفات خاصه بالمحل" HorizontalAlignment="Left" Margin="1002,512,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.265,0.603" Width="273" Height="47" FontWeight="Bold" FontSize="30" Cursor="" FontFamily="Arial" Background="Black" Foreground="White" Click="expen_1"/>
-        <Button Content="مصروفات شخصيه" HorizontalAlignment="Left" Margin="753,512,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.265,0.603" Width="215" Height="47" FontWeight="Bold" FontSize="30" Cursor="" FontFamily="Arial" Background="Black" Foreground="White" Click="expen_2"/>
+        <Label Content="قسم الخاص بالمصروفات  " HorizontalAlignment="Left" Margin="912,423,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="40" FontFamily="Arial" Height="52"/>
+        <Button Content="مصروفات خاصه بالمحل" HorizontalAlignment="Left" Margin="1002,480,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.265,0.603" Width="273" Height="44" FontWeight="Bold" FontSize="30" Cursor="" FontFamily="Arial" Background="Black" Foreground="White" Click="expen_1"/>
+        <Button Content="مصروفات شخصيه" HorizontalAlignment="Left" Margin="753,480,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.265,0.603" Width="215" Height="44" FontWeight="Bold" FontSize="30" Cursor="" FontFamily="Arial" Background="Black" Foreground="White" Click="expen_2"/>
         <!--نهاية تصميم قسم الخاص بالمصروفات -->
-        
+
         <!--    -->
-        <Label Content="القسم الخاص بالتحكم" HorizontalAlignment="Left" Margin="990,573,0,0" VerticalAlignment="Top" FontSize="40" FontFamily="Arial" FontWeight="Bold"/>
-        <Button Content="تعديل مخزون البن" HorizontalAlignment="Left" Margin="1083,634,0,0" VerticalAlignment="Top" FontSize="30" FontFamily="Arial" FontWeight="Bold" Background="Black" Foreground="White" Height="50" Click="edit_cofee" Width="190"/>
-        <Button Content="اضافة مخزون البن" HorizontalAlignment="Left" Margin="797,634,0,0" VerticalAlignment="Top" FontSize="30" FontFamily="Arial" FontWeight="Bold" Background="Black" Foreground="White" Height="50" Click="add_cofee" Width="190"/>
-        <Button Content="حذف مخزون البن" HorizontalAlignment="Left" Margin="521,634,0,0" VerticalAlignment="Top" FontSize="30" FontFamily="Arial" FontWeight="Bold" Background="Black" Foreground="White" Height="50" Click="delete_cofee" Width="190"/>
-        <Button Content="تعديل مخزون النكهات" HorizontalAlignment="Left" Margin="1045,704,0,0" VerticalAlignment="Top" FontSize="30" FontFamily="Arial" FontWeight="Bold" Background="Black" Foreground="White" Height="50" Click="edit_flavor" Width="230"/>
-        <Button Content="اضافة مخزون النكهات" HorizontalAlignment="Left" Margin="777,704,0,0" VerticalAlignment="Top" FontSize="30" FontFamily="Arial" FontWeight="Bold" Background="Black" Foreground="White" Height="50" Click="add_flavor" Width="230"/>
-        <Button Content="حذف مخزون النكهات" HorizontalAlignment="Left" Margin="501,704,0,0" VerticalAlignment="Top" FontSize="30" FontFamily="Arial" FontWeight="Bold" Background="Black" Foreground="White" Height="50" Click="delete_flavor" Width="230"/>
-        <Button Content="تعديل مخزون النحاس" HorizontalAlignment="Left" Margin="1045,775,0,0" VerticalAlignment="Top" FontSize="30" FontFamily="Arial" FontWeight="Bold" Background="Black" Foreground="White" Height="50" Click="edit_copper" Width="230"/>
-        <Button Content="اضافة مخزون النحاس" HorizontalAlignment="Left" Margin="777,775,0,0" VerticalAlignment="Top" FontSize="30" FontFamily="Arial" FontWeight="Bold" Background="Black" Foreground="White" Height="50" Click="add_copper" Width="230"/>
-        <Button Content="حذف مخزون النحاس" HorizontalAlignment="Left" Margin="501,775,0,0" VerticalAlignment="Top" FontSize="30" FontFamily="Arial" FontWeight="Bold" Background="Black" Foreground="White" Height="50" Click="delete_copper" Width="230"/>
-        
+        <Label Content="القسم الخاص بالتحكم" HorizontalAlignment="Left" Margin="990,537,0,0" VerticalAlignment="Top" FontSize="40" FontFamily="Arial" FontWeight="Bold" Height="52"/>
+        <Button Content="تعديل مخزون البن" HorizontalAlignment="Left" Margin="1083,594,0,0" VerticalAlignment="Top" FontSize="30" FontFamily="Arial" FontWeight="Bold" Background="Black" Foreground="White" Height="47" Click="edit_cofee" Width="190"/>
+        <Button Content="اضافة مخزون البن" HorizontalAlignment="Left" Margin="797,594,0,0" VerticalAlignment="Top" FontSize="30" FontFamily="Arial" FontWeight="Bold" Background="Black" Foreground="White" Height="47" Click="add_cofee" Width="190"/>
+        <Button Content="حذف مخزون البن" HorizontalAlignment="Left" Margin="521,594,0,0" VerticalAlignment="Top" FontSize="30" FontFamily="Arial" FontWeight="Bold" Background="Black" Foreground="White" Height="47" Click="delete_cofee" Width="190"/>
+        <Button Content="تعديل مخزون النكهات" HorizontalAlignment="Left" Margin="1045,659,0,0" VerticalAlignment="Top" FontSize="30" FontFamily="Arial" FontWeight="Bold" Background="Black" Foreground="White" Height="47" Click="edit_flavor" Width="230"/>
+        <Button Content="اضافة مخزون النكهات" HorizontalAlignment="Left" Margin="777,659,0,0" VerticalAlignment="Top" FontSize="30" FontFamily="Arial" FontWeight="Bold" Background="Black" Foreground="White" Height="47" Click="add_flavor" Width="230"/>
+        <Button Content="حذف مخزون النكهات" HorizontalAlignment="Left" Margin="501,659,0,0" VerticalAlignment="Top" FontSize="30" FontFamily="Arial" FontWeight="Bold" Background="Black" Foreground="White" Height="47" Click="delete_flavor" Width="230"/>
+        <Button Content="تعديل مخزون النحاس" HorizontalAlignment="Left" Margin="1045,726,0,0" VerticalAlignment="Top" FontSize="30" FontFamily="Arial" FontWeight="Bold" Background="Black" Foreground="White" Height="47" Click="edit_copper" Width="230"/>
+        <Button Content="اضافة مخزون النحاس" HorizontalAlignment="Left" Margin="777,726,0,0" VerticalAlignment="Top" FontSize="30" FontFamily="Arial" FontWeight="Bold" Background="Black" Foreground="White" Height="47" Click="add_copper" Width="230"/>
+        <Button Content="حذف مخزون النحاس" HorizontalAlignment="Left" Margin="501,726,0,0" VerticalAlignment="Top" FontSize="30" FontFamily="Arial" FontWeight="Bold" Background="Black" Foreground="White" Height="47" Click="delete_copper" Width="230"/>
+
     </Grid>
 </Window>

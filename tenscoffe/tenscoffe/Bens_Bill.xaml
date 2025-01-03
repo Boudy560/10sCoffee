@@ -8,29 +8,18 @@
         WindowStartupLocation="CenterScreen"
         Title="Bens_Bill" Height="700" Width="1000">
     <Grid Background="#FFAAAC59">
-        <Button Content="بن برازيلى سادة" HorizontalAlignment="Left" Margin="457,10,0,0" VerticalAlignment="Top" Background="Black" BorderBrush="#FFAAAC59" Foreground="White" Padding="5,5,5,5" Click="coffee_sada" FontWeight="Bold" FontSize="20" FontFamily="Arial"/>
         <DataGrid d:ItemsSource="{d:SampleData ItemCount=5}" Margin="591,10,10,353" SelectionChanged="DataGrid_Selection"/>
-        <Button Content="بن برازيلى محوج" HorizontalAlignment="Left" Margin="313,10,0,0" VerticalAlignment="Top" Background="Black" BorderBrush="#FFAAAC59" Foreground="White" Padding="5,5,5,5" Click="coffee_roasted" FontWeight="Bold" FontSize="20" FontFamily="Arial"/>
-        <Button Content="بن حبشي سادة" HorizontalAlignment="Left" Margin="187,10,0,0" VerticalAlignment="Top" Background="Black" BorderBrush="#FFAAAC59" Foreground="White" Padding="5,5,5,5" Click="coffee_habashe_sada" FontWeight="Bold" FontSize="20" FontFamily="Arial"/>
-        <Button Content="بن حبشي محوج" HorizontalAlignment="Left" Margin="48,10,0,0" VerticalAlignment="Top" Background="Black" BorderBrush="#FFAAAC59" Foreground="White" Padding="5,5,5,5" Click="coffee_habashe_roasted" FontWeight="Bold" FontSize="20" FontFamily="Arial"/>
-        <Button Content="بن كولومبي سادة" HorizontalAlignment="Left" Margin="454,61,0,0" VerticalAlignment="Top" Background="Black" BorderBrush="#FFAAAC59" Foreground="White" Padding="5,5,5,5" Click="coffee_colombia_sada" FontWeight="Bold" FontSize="20" FontFamily="Arial"/>
-        <Button Content="بن كولومبي محوج" HorizontalAlignment="Left" Margin="310,61,0,0" VerticalAlignment="Top" Background="Black" BorderBrush="#FFAAAC59" Foreground="White" Padding="5,5,5,5" Click="coffee_colombia_roasted" FontWeight="Bold" FontSize="20" FontFamily="Arial"/>
-        <Button Content="بن يمني" HorizontalAlignment="Left" Margin="187,61,0,0" VerticalAlignment="Top" Background="Black" BorderBrush="#FFAAAC59" Foreground="White" Padding="5,5,5,5" Click="coffee_yamin" FontWeight="Bold" FontSize="20" FontFamily="Arial" Width="110"/>
-        <Button Content="بن هيرري" HorizontalAlignment="Left" Margin="48,61,0,0" VerticalAlignment="Top" Background="Black" BorderBrush="#FFAAAC59" Foreground="White" Padding="5,5,5,5" Click="coffee_herrey" FontWeight="Bold" FontSize="20" FontFamily="Arial" Width="118"/>
-        <Button Content="بن كيني" HorizontalAlignment="Left" Margin="461,111,0,0" VerticalAlignment="Top" Background="Black" BorderBrush="#FFAAAC59" Foreground="White" Padding="5,5,5,5" Click="coffee_kenyia" FontWeight="Bold" FontSize="20" FontFamily="Arial" Width="110"/>
-        <Button Content="بن هندي" HorizontalAlignment="Left" Margin="322,111,0,0" VerticalAlignment="Top" Background="Black" BorderBrush="#FFAAAC59" Foreground="White" Padding="5,5,5,5" Click="coffee_indian" FontWeight="Bold" FontSize="20" FontFamily="Arial" Width="110"/>
-        <Button Content="بن جواتيمالا" HorizontalAlignment="Left" Margin="187,111,0,0" VerticalAlignment="Top" Background="Black" BorderBrush="#FFAAAC59" Foreground="White" Padding="5,5,5,5" Click="coffee_gwametala" FontWeight="Bold" FontSize="20" FontFamily="Arial" Width="110"/>
-        <Label Content="النوع" HorizontalAlignment="Left" Margin="500,243,0,0" VerticalAlignment="Top" FontSize="20" FontWeight="Bold" FontFamily="Arial"/>
-        <Label Content="" HorizontalAlignment="Left" Margin="401,243,0,0" VerticalAlignment="Top" FontSize="20" FontWeight="Bold" FontFamily="Arial"/>
-        <Label Content="الكمية" HorizontalAlignment="Left" Margin="496,308,0,0" VerticalAlignment="Top" FontWeight="Bold" FontFamily="Arial" FontSize="20"/>
-        <ComboBox HorizontalAlignment="Left" Margin="346,314,0,0" VerticalAlignment="Top" Width="120" BorderBrush="White">
-            <ComboBox.Background>
-                <LinearGradientBrush EndPoint="0,1">
-                    <GradientStop Color="#FFF0F0F0"/>
-                    <GradientStop Color="White" Offset="1"/>
-                </LinearGradientBrush>
-            </ComboBox.Background>
-        </ComboBox>
-        <Button Content="تأكيد الشراء" HorizontalAlignment="Left" Margin="351,460,0,0" VerticalAlignment="Top" Background="Black" BorderBrush="#FFAAAC59" Foreground="White" Padding="5,5,5,5" Click="buy" FontWeight="Bold" FontSize="20" FontFamily="Arial" Width="110"/>
+        <Label Content="الكمية" HorizontalAlignment="Left" Margin="488,543,0,0" VerticalAlignment="Top" FontWeight="Bold" FontFamily="Arial" FontSize="20" Height="32" Width="52"/>
+        <Button Content="تأكيد الشراء" HorizontalAlignment="Left" Margin="363,601,0,0" VerticalAlignment="Top" Background="Black" BorderBrush="#FFAAAC59" Foreground="White" Padding="5,5,5,5" Click="buy" FontWeight="Bold" FontSize="20" FontFamily="Arial" Width="115" Height="34"/>
+        <Button Content="سادة" HorizontalAlignment="Left" Margin="327,357,0,0" VerticalAlignment="Top" Background="Black" BorderBrush="#FFAAAC59" Foreground="White" Padding="5,5,5,5" Click="coffee_sada" FontWeight="Bold" FontSize="20" FontFamily="Arial" Width="114" Height="34"/>
+        <Button Content="محوج" HorizontalAlignment="Left" Margin="192,359,0,0" VerticalAlignment="Top" Background="Black" BorderBrush="#FFAAAC59" Foreground="White" Padding="5,5,5,5" Click="coffee_roasted" FontWeight="Bold" FontSize="20" FontFamily="Arial" Width="115" Height="34"/>
+        <Label Content="نوع البن" HorizontalAlignment="Left" Margin="480,359,0,0" VerticalAlignment="Top" FontWeight="Bold" FontFamily="Arial" FontSize="20" Height="32" Width="68"/>
+        <Label Content="درجة البن" HorizontalAlignment="Left" Margin="474,452,0,0" VerticalAlignment="Top" FontWeight="Bold" FontFamily="Arial" FontSize="20" Height="32" Width="80"/>
+        <Button Content="فاتح" HorizontalAlignment="Left" Margin="327,452,0,0" VerticalAlignment="Top" Background="Black" BorderBrush="#FFAAAC59" Foreground="White" Padding="5,5,5,5" Click="light_btn" FontWeight="Bold" FontSize="20" FontFamily="Arial" Width="114" Height="34"/>
+        <Button Content="وسط" HorizontalAlignment="Left" Margin="192,453,0,0" VerticalAlignment="Top" Background="Black" BorderBrush="#FFAAAC59" Foreground="White" Padding="5,5,5,5" Click="meduim_btn" FontWeight="Bold" FontSize="20" FontFamily="Arial" Width="115" Height="34"/>
+        <Button Content="غامق" HorizontalAlignment="Left" Margin="56,453,0,0" VerticalAlignment="Top" Background="Black" BorderBrush="#FFAAAC59" Foreground="White" Padding="5,5,5,5" Click="dark_btn" FontWeight="Bold" FontSize="20" FontFamily="Arial" Width="115" Height="34"/>
+        <TextBox HorizontalAlignment="Left" Margin="192,543,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="250" Height="35" TextAlignment="Center" FontSize="20" FontFamily="Arial" FontWeight="Bold" UndoLimit="50"/>
+        <Button Content="حذف عنصر واحد" HorizontalAlignment="Left" Margin="816,357,0,0" VerticalAlignment="Top" Background="Black" BorderBrush="#FFAAAC59" Foreground="White" Padding="5,5,5,5" Click="delete_one_item_from_database" FontWeight="Bold" FontSize="20" FontFamily="Arial" Width="133" Height="34"/>
+        <Button Content="حذف بيانات الجدول" HorizontalAlignment="Left" Margin="662,357,0,0" VerticalAlignment="Top" Background="Black" BorderBrush="#FFAAAC59" Foreground="White" Padding="5,5,5,5" Click="delete_all_data_from_data_grid" FontWeight="Bold" FontSize="20" FontFamily="Arial" Width="145" Height="34"/>
     </Grid>
 </Window>
