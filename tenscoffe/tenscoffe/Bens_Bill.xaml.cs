@@ -73,5 +73,90 @@ namespace tenscoffe
         {
 
         }
+
+        private void coffee_brazilian(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void coffee_habashy(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void coffee_colombia(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void coffee_yamin(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void coffee_herre(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void coffee_kene(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void coffee_indian(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void coffee_gwatemalla(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void coffee_super(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void coffee_speaciall(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void coffee_ameed(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void coffee_arbeka(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void coffee_el_molook(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void coffee_extra(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void coffee_groom(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void coffee_arabic(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void coffee_green(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
