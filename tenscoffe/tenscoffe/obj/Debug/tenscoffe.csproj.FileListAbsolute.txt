@@ -76,3 +76,11 @@ D:\10sCoffee\tenscoffe\tenscoffe\obj\Debug\Flavors_Biil.baml
 D:\10sCoffee\tenscoffe\tenscoffe\obj\Debug\Monthly_Salas_Screen.baml
 D:\10sCoffee\tenscoffe\tenscoffe\obj\Debug\Personal_Expenses_Screen.baml
 D:\10sCoffee\tenscoffe\tenscoffe\obj\Debug\Stor_Specific_Expenses_Screen.baml
+E:\10sCoffee\tenscoffe\tenscoffe\obj\Debug\MangementBenCoffe.g.cs
+E:\10sCoffee\tenscoffe\tenscoffe\obj\Debug\MangementCopper.g.cs
+E:\10sCoffee\tenscoffe\tenscoffe\obj\Debug\MangementDrinks.g.cs
+E:\10sCoffee\tenscoffe\tenscoffe\obj\Debug\MangementFlavoers.g.cs
+E:\10sCoffee\tenscoffe\tenscoffe\obj\Debug\MangementBenCoffe.baml
+E:\10sCoffee\tenscoffe\tenscoffe\obj\Debug\MangementCopper.baml
+E:\10sCoffee\tenscoffe\tenscoffe\obj\Debug\MangementDrinks.baml
+E:\10sCoffee\tenscoffe\tenscoffe\obj\Debug\MangementFlavoers.baml

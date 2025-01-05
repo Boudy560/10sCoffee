@@ -52,15 +52,10 @@
 
         <!--    -->
         <Label Content="القسم الخاص بالتحكم" HorizontalAlignment="Left" Margin="990,537,0,0" VerticalAlignment="Top" FontSize="40" FontFamily="Arial" FontWeight="Bold" Height="52"/>
-        <Button Content="تعديل مخزون البن" HorizontalAlignment="Left" Margin="1083,594,0,0" VerticalAlignment="Top" FontSize="30" FontFamily="Arial" FontWeight="Bold" Background="Black" Foreground="White" Height="47" Click="edit_cofee" Width="190"/>
-        <Button Content="اضافة مخزون البن" HorizontalAlignment="Left" Margin="797,594,0,0" VerticalAlignment="Top" FontSize="30" FontFamily="Arial" FontWeight="Bold" Background="Black" Foreground="White" Height="47" Click="add_cofee" Width="190"/>
-        <Button Content="حذف مخزون البن" HorizontalAlignment="Left" Margin="521,594,0,0" VerticalAlignment="Top" FontSize="30" FontFamily="Arial" FontWeight="Bold" Background="Black" Foreground="White" Height="47" Click="delete_cofee" Width="190"/>
-        <Button Content="تعديل مخزون النكهات" HorizontalAlignment="Left" Margin="1045,659,0,0" VerticalAlignment="Top" FontSize="30" FontFamily="Arial" FontWeight="Bold" Background="Black" Foreground="White" Height="47" Click="edit_flavor" Width="230"/>
-        <Button Content="اضافة مخزون النكهات" HorizontalAlignment="Left" Margin="777,659,0,0" VerticalAlignment="Top" FontSize="30" FontFamily="Arial" FontWeight="Bold" Background="Black" Foreground="White" Height="47" Click="add_flavor" Width="230"/>
-        <Button Content="حذف مخزون النكهات" HorizontalAlignment="Left" Margin="501,659,0,0" VerticalAlignment="Top" FontSize="30" FontFamily="Arial" FontWeight="Bold" Background="Black" Foreground="White" Height="47" Click="delete_flavor" Width="230"/>
-        <Button Content="تعديل مخزون النحاس" HorizontalAlignment="Left" Margin="1045,726,0,0" VerticalAlignment="Top" FontSize="30" FontFamily="Arial" FontWeight="Bold" Background="Black" Foreground="White" Height="47" Click="edit_copper" Width="230"/>
-        <Button Content="اضافة مخزون النحاس" HorizontalAlignment="Left" Margin="777,726,0,0" VerticalAlignment="Top" FontSize="30" FontFamily="Arial" FontWeight="Bold" Background="Black" Foreground="White" Height="47" Click="add_copper" Width="230"/>
-        <Button Content="حذف مخزون النحاس" HorizontalAlignment="Left" Margin="501,726,0,0" VerticalAlignment="Top" FontSize="30" FontFamily="Arial" FontWeight="Bold" Background="Black" Foreground="White" Height="47" Click="delete_copper" Width="230"/>
+        <Button Content="ادارة مخزون البن" HorizontalAlignment="Left" Margin="1058,594,0,0" VerticalAlignment="Top" FontSize="30" FontFamily="Arial" FontWeight="Bold" Background="Black" Foreground="White" Height="47" Click="manage_inventory_coffe_ben" Width="255" IsCancel="True"/>
+        <Button Content="ادارة مخزون النكهات" Margin="785,594,0,0" VerticalAlignment="Top" FontSize="30" FontFamily="Arial" FontWeight="Bold" Background="Black" Foreground="White" Height="47" Click="manage_inventory_flavore" HorizontalAlignment="Left" Width="255"/>
+        <Button Content="ادارة مخزون النحاس" HorizontalAlignment="Left" Margin="498,594,0,0" VerticalAlignment="Top" FontSize="30" FontFamily="Arial" FontWeight="Bold" Background="Black" Foreground="White" Height="47" Click="manage_inventory_coppur" Width="255"/>
+        <Button Content="ادارة مخزون المشروبات" HorizontalAlignment="Left" Margin="214,594,0,0" VerticalAlignment="Top" FontSize="30" FontFamily="Arial" FontWeight="Bold" Background="Black" Foreground="White" Height="47" Click="manage_inventory_drinks" Width="255"/>
 
     </Grid>
 </Window>

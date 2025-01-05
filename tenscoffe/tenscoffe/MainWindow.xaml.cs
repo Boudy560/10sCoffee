@@ -128,49 +128,28 @@ namespace tenscoffe
             pes.Show();
         }
 
-        private void edit_cofee(object sender, RoutedEventArgs e)
+        private void manage_inventory_coffe_ben(object sender, RoutedEventArgs e)
         {
-
+            MangementBenCoffe mbf = new MangementBenCoffe();
+            mbf.Show();
         }
 
-        private void add_cofee(object sender, RoutedEventArgs e)
+        private void manage_inventory_flavore(object sender, RoutedEventArgs e)
         {
-
+            MangementFlavoers mf =new MangementFlavoers();
+            mf.Show();
         }
 
-        private void delete_cofee(object sender, RoutedEventArgs e)
+        private void manage_inventory_coppur(object sender, RoutedEventArgs e)
         {
-
+            MangementCopper mc = new MangementCopper();
+            mc.Show();
         }
 
-        private void edit_flavor(object sender, RoutedEventArgs e)
+        private void manage_inventory_drinks(object sender, RoutedEventArgs e)
         {
-
-        }
-
-        private void add_flavor(object sender, RoutedEventArgs e)
-        {
-
-        }
-
-        private void delete_flavor(object sender, RoutedEventArgs e)
-        {
-
-        }
-
-        private void edit_copper(object sender, RoutedEventArgs e)
-        {
-
-        }
-
-        private void add_copper(object sender, RoutedEventArgs e)
-        {
-
-        }
-
-        private void delete_copper(object sender, RoutedEventArgs e)
-        {
-
+            MangementDrinks md = new MangementDrinks(); 
+            md.Show();
         }
     }
 }
