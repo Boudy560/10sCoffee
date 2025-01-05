@@ -6,8 +6,33 @@
         xmlns:local="clr-namespace:tenscoffe"
         mc:Ignorable="d"
         WindowStartupLocation="CenterScreen"
-        Title="Flavors_Biil" Height="450" Width="800">
+        Title="Flavors_Biil" Height="700" Width="1200" Background="#AAAC59">
     <Grid>
-        
+        <DataGrid d:ItemsSource="{d:SampleData ItemCount=5}" Width="456" Height="321.04" Margin="734,10,10,353"/>
+        <Button Content="بن بندق" HorizontalAlignment="Left" Margin="600,10,0,0" VerticalAlignment="Top" Background="Black" BorderBrush="#FFAAAC59" Foreground="White" Padding="5,5,5,5" Click="coffee_hazelnut" FontWeight="Bold" FontSize="20" FontFamily="Arial" Width="114" Height="34"/>
+        <Button Content="بندق قطع" HorizontalAlignment="Left" Margin="461,10,0,0" VerticalAlignment="Top" Background="Black" BorderBrush="#FFAAAC59" Foreground="White" Padding="5,5,5,5" Click="coffee_hazelnut_pieces" FontWeight="Bold" FontSize="20" FontFamily="Arial" Width="114" Height="34"/>
+        <Button Content="بن فانيليا" HorizontalAlignment="Left" Margin="325,10,0,0" VerticalAlignment="Top" Background="Black" BorderBrush="#FFAAAC59" Foreground="White" Padding="5,5,5,5" Click="coffee_vanilla" FontWeight="Bold" FontSize="20" FontFamily="Arial" Width="114" Height="34"/>
+        <Button Content="بن شيكولاتة" HorizontalAlignment="Left" Margin="188,10,0,0" VerticalAlignment="Top" Background="Black" BorderBrush="#FFAAAC59" Foreground="White" Padding="5,5,5,5" Click="coffee_choclite" FontWeight="Bold" FontSize="20" FontFamily="Arial" Width="114" Height="34"/>
+        <Button Content="بن كراميل" HorizontalAlignment="Left" Margin="49,10,0,0" VerticalAlignment="Top" Background="Black" BorderBrush="#FFAAAC59" Foreground="White" Padding="5,5,5,5" Click="coffee_caramell" FontWeight="Bold" FontSize="20" FontFamily="Arial" Width="114" Height="34"/>
+        <Button Content="بن فرنساوي" HorizontalAlignment="Left" Margin="600,83,0,0" VerticalAlignment="Top" Background="Black" BorderBrush="#FFAAAC59" Foreground="White" Padding="5,5,5,5" Click="coffee_frencie" FontWeight="Bold" FontSize="20" FontFamily="Arial" Width="114" Height="34"/>
+        <Button Content="بن موز" HorizontalAlignment="Left" Margin="461,83,0,0" VerticalAlignment="Top" Background="Black" BorderBrush="#FFAAAC59" Foreground="White" Padding="5,5,5,5" Click="coffee_banana" FontWeight="Bold" FontSize="20" FontFamily="Arial" Width="114" Height="34"/>
+        <Button Content="بن فراولة" HorizontalAlignment="Left" Margin="325,83,0,0" VerticalAlignment="Top" Background="Black" BorderBrush="#FFAAAC59" Foreground="White" Padding="5,5,5,5" Click="coffee_strawberry" FontWeight="Bold" FontSize="20" FontFamily="Arial" Width="114" Height="34"/>
+        <Button Content="بن مانجو" HorizontalAlignment="Left" Margin="188,83,0,0" VerticalAlignment="Top" Background="Black" BorderBrush="#FFAAAC59" Foreground="White" Padding="5,5,5,5" Click="coffee_mango" FontWeight="Bold" FontSize="20" FontFamily="Arial" Width="114" Height="34"/>
+        <Button Content="بن توت" HorizontalAlignment="Left" Margin="49,83,0,0" VerticalAlignment="Top" Background="Black" BorderBrush="#FFAAAC59" Foreground="White" Padding="5,5,5,5" Click="coffee_blue_berry" FontWeight="Bold" FontSize="20" FontFamily="Arial" Width="114" Height="34"/>
+        <Button Content="بن لوتس" HorizontalAlignment="Left" Margin="600,154,0,0" VerticalAlignment="Top" Background="Black" BorderBrush="#FFAAAC59" Foreground="White" Padding="5,5,5,5" Click="coffee_lotus" FontWeight="Bold" FontSize="20" FontFamily="Arial" Width="114" Height="34"/>
+        <Button Content="بن نوتيلا قطع" HorizontalAlignment="Left" Margin="461,154,0,0" VerticalAlignment="Top" Background="Black" BorderBrush="#FFAAAC59" Foreground="White" Padding="5,5,5,5" Click="coffee_nutella_pieces" FontWeight="Bold" FontSize="20" FontFamily="Arial" Width="114" Height="34"/>
+        <Button Content="حذف عنصر واحد" HorizontalAlignment="Left" Margin="1011,387,0,0" VerticalAlignment="Top" Background="Black" BorderBrush="#FFAAAC59" Foreground="White" Padding="5,5,5,5" Click="delete_one_item_from_database_flavor" FontWeight="Bold" FontSize="20" FontFamily="Arial" Width="133" Height="34"/>
+        <Button Content="حذف بيانات الجدول" HorizontalAlignment="Left" Margin="857,387,0,0" VerticalAlignment="Top" Background="Black" BorderBrush="#FFAAAC59" Foreground="White" Padding="5,5,5,5" Click="delete_all_data_from_data_grid_flavor" FontWeight="Bold" FontSize="20" FontFamily="Arial" Width="145" Height="34"/>
+        <Button Content="سادة" HorizontalAlignment="Left" Margin="327,357,0,0" VerticalAlignment="Top" Background="Black" BorderBrush="#FFAAAC59" Foreground="White" Padding="5,5,5,5" Click="coffee_flavor_sada" FontWeight="Bold" FontSize="20" FontFamily="Arial" Width="114" Height="34"/>
+        <Button Content="محوج" HorizontalAlignment="Left" Margin="192,359,0,0" VerticalAlignment="Top" Background="Black" BorderBrush="#FFAAAC59" Foreground="White" Padding="5,5,5,5" Click="coffee_flavor_roasted" FontWeight="Bold" FontSize="20" FontFamily="Arial" Width="115" Height="34"/>
+        <Label Content="نوع نكهة البن" HorizontalAlignment="Left" Margin="480,359,0,0" VerticalAlignment="Top" FontWeight="Bold" FontFamily="Arial" FontSize="20" Height="32" Width="106"/>
+        <Label Content="درجة البن" HorizontalAlignment="Left" Margin="506,447,0,0" VerticalAlignment="Top" FontWeight="Bold" FontFamily="Arial" FontSize="20" Height="32" Width="80"/>
+        <Button Content="فاتح" HorizontalAlignment="Left" Margin="327,452,0,0" VerticalAlignment="Top" Background="Black" BorderBrush="#FFAAAC59" Foreground="White" Padding="5,5,5,5" Click="flavor_light_btn" FontWeight="Bold" FontSize="20" FontFamily="Arial" Width="114" Height="34"/>
+        <Button Content="وسط" HorizontalAlignment="Left" Margin="192,453,0,0" VerticalAlignment="Top" Background="Black" BorderBrush="#FFAAAC59" Foreground="White" Padding="5,5,5,5" Click="flavor_meduim_btn" FontWeight="Bold" FontSize="20" FontFamily="Arial" Width="115" Height="34"/>
+        <Button Content="غامق" HorizontalAlignment="Left" Margin="56,453,0,0" VerticalAlignment="Top" Background="Black" BorderBrush="#FFAAAC59" Foreground="White" Padding="5,5,5,5" Click="flavor_dark_btn" FontWeight="Bold" FontSize="20" FontFamily="Arial" Width="115" Height="34"/>
+        <Label Content="الكمية" HorizontalAlignment="Left" Margin="523,543,0,0" VerticalAlignment="Top" FontWeight="Bold" FontFamily="Arial" FontSize="20" Height="32" Width="52"/>
+        <Button Content="تأكيد الشراء" HorizontalAlignment="Left" Margin="363,601,0,0" VerticalAlignment="Top" Background="Black" BorderBrush="#FFAAAC59" Foreground="White" Padding="5,5,5,5" Click="buy_flavor" FontWeight="Bold" FontSize="20" FontFamily="Arial" Width="115" Height="34"/>
+        <TextBox HorizontalAlignment="Left" Margin="192,543,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="250" Height="35" TextAlignment="Center" FontSize="20" FontFamily="Arial" FontWeight="Bold" UndoLimit="50"/>
+
     </Grid>
 </Window>

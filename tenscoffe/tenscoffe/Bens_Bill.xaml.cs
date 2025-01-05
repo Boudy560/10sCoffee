@@ -64,16 +64,6 @@ namespace tenscoffe
 
         }
 
-        private void delete_one_item_from_database(object sender, RoutedEventArgs e)
-        {
-
-        }
-
-        private void delete_all_data_from_data_grid(object sender, RoutedEventArgs e)
-        {
-
-        }
-
         private void coffee_brazilian(object sender, RoutedEventArgs e)
         {
 
@@ -155,6 +145,16 @@ namespace tenscoffe
         }
 
         private void coffee_green(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void delete_one_item_from_database_bens(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void delete_all_data_from_data_grid_bens(object sender, RoutedEventArgs e)
         {
 
         }
