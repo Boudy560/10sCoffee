@@ -24,6 +24,8 @@ namespace tenscoffe
             InitializeComponent();
         }
 
+
+        // الازرار الخاصة بالقسم السخن
         private void tea_btn(object sender, RoutedEventArgs e)
         {
 
@@ -155,6 +157,112 @@ namespace tenscoffe
         }
 
         private void tea_milk(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+
+        // الازرار الخاصة بقسم الفرابية
+
+        private void farabiea_classic(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void farabiea_vanela(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void farabiea_dark_moka(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void farabiea_white_moka(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void farabiea_choclete(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void farabiea_caramella(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void farabiea_coconuts(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void farabiea_orio(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void farabiea_kitkat(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void farabiea_galacsy(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void farabiea_sneckries(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void farabiea_twiks(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void farabiea_mega(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+
+        // الازرار الخاصة بقسم الايس كوفي
+
+        private void ice_coffee_latea(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void ice_coffee_latea_caramella(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void ice_coffee_vanella_latea(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void ice_coffee_dark_moka(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void ice_coffee_white_moka(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void ice_coffee_cabatchinoo(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void ice_coffee_amrecano(object sender, RoutedEventArgs e)
         {
 
         }
