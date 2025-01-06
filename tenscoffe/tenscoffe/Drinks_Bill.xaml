@@ -6,9 +6,9 @@
         xmlns:local="clr-namespace:tenscoffe"
         mc:Ignorable="d"
         WindowStartupLocation="CenterScreen"
-        Title="Drinks_Bill" Height="700" Width="1200" Background="#FFAAAC59">
+        Title="Drinks_Bill" Height="820" Width="1200" Background="#FFAAAC59">
     <Grid>
-        <DataGrid d:ItemsSource="{d:SampleData ItemCount=10}" Width="456" Height="321.04" Margin="734,10,10,353"/>
+        <DataGrid d:ItemsSource="{d:SampleData ItemCount=10}" Width="456" Height="321.04" Margin="734,10,10,453"/>
         <Label Content="السخن" HorizontalAlignment="Left" Margin="640,10,0,0" VerticalAlignment="Top" FontWeight="Bold" FontFamily="Arial" FontSize="30" Height="42" Width="79"/>
         <Button Content="شاي" HorizontalAlignment="Left" Margin="606,56,0,0" VerticalAlignment="Top" Background="Black" BorderBrush="#FFAAAC59" Foreground="White" Padding="5,5,5,5" Click="tea_btn" FontWeight="Bold" FontSize="20" FontFamily="Arial" Width="114" Height="34"/>
         <Button Content="قهوة تركي" HorizontalAlignment="Left" Margin="487,56,0,0" VerticalAlignment="Top" Background="Black" BorderBrush="#FFAAAC59" Foreground="White" Padding="5,5,5,5" Click="coffee_turky" FontWeight="Bold" FontSize="20" FontFamily="Arial" Width="114" Height="34"/>
@@ -59,6 +59,26 @@
         <Button Content="وايت موكا" HorizontalAlignment="Left" Margin="130,484,0,0" VerticalAlignment="Top" Background="Black" BorderBrush="#FFAAAC59" Foreground="White" Padding="5,5,5,5" Click="ice_coffee_white_moka" FontWeight="Bold" FontSize="20" FontFamily="Arial" Width="114" Height="34"/>
         <Button Content="كابتشينو" HorizontalAlignment="Left" Margin="11,484,0,0" VerticalAlignment="Top" Background="Black" BorderBrush="#FFAAAC59" Foreground="White" Padding="5,5,5,5" Click="ice_coffee_cabatchinoo" FontWeight="Bold" FontSize="20" FontFamily="Arial" Width="114" Height="34"/>
         <Button Content="امريكانو" HorizontalAlignment="Left" Margin="606,523,0,0" VerticalAlignment="Top" Background="Black" BorderBrush="#FFAAAC59" Foreground="White" Padding="5,5,5,5" Click="ice_coffee_amrecano" FontWeight="Bold" FontSize="20" FontFamily="Arial" Width="114" Height="34"/>
+        <Label Content="ميلك شيك" HorizontalAlignment="Left" Margin="606,570,0,0" VerticalAlignment="Top" FontWeight="Bold" FontFamily="Arial" FontSize="30" Height="42" Width="114"/>
+        <Button Content="فانيليا" HorizontalAlignment="Left" Margin="605,617,0,0" VerticalAlignment="Top" Background="Black" BorderBrush="#FFAAAC59" Foreground="White" Padding="5,5,5,5" Click="milk_cheak_vanella" FontWeight="Bold" FontSize="20" FontFamily="Arial" Width="114" Height="34"/>
+        <Button Content="كراميل" HorizontalAlignment="Left" Margin="486,617,0,0" VerticalAlignment="Top" Background="Black" BorderBrush="#FFAAAC59" Foreground="White" Padding="5,5,5,5" Click="milk_cheak_caramella" FontWeight="Bold" FontSize="20" FontFamily="Arial" Width="114" Height="34"/>
+        <Button Content="بندق" HorizontalAlignment="Left" Margin="367,617,0,0" VerticalAlignment="Top" Background="Black" BorderBrush="#FFAAAC59" Foreground="White" Padding="5,5,5,5" Click="milk_cheak_coconutes" FontWeight="Bold" FontSize="20" FontFamily="Arial" Width="114" Height="34"/>
+        <Button Content="اوريو" HorizontalAlignment="Left" Margin="248,617,0,0" VerticalAlignment="Top" Background="Black" BorderBrush="#FFAAAC59" Foreground="White" Padding="5,5,5,5" Click="milk_cheak_orio" FontWeight="Bold" FontSize="20" FontFamily="Arial" Width="114" Height="34"/>
+        <Button Content="سنيكرز" HorizontalAlignment="Left" Margin="129,617,0,0" VerticalAlignment="Top" Background="Black" BorderBrush="#FFAAAC59" Foreground="White" Padding="5,5,5,5" Click="milk_cheak_sneckries" FontWeight="Bold" FontSize="20" FontFamily="Arial" Width="114" Height="34"/>
+        <Button Content="كيت كات" HorizontalAlignment="Left" Margin="10,617,0,0" VerticalAlignment="Top" Background="Black" BorderBrush="#FFAAAC59" Foreground="White" Padding="5,5,5,5" Click="milk_cheak_kitkat" FontWeight="Bold" FontSize="20" FontFamily="Arial" Width="114" Height="34"/>
+        <Button Content="مورو" HorizontalAlignment="Left" Margin="605,656,0,0" VerticalAlignment="Top" Background="Black" BorderBrush="#FFAAAC59" Foreground="White" Padding="5,5,5,5" Click="milk_cheak_morro" FontWeight="Bold" FontSize="20" FontFamily="Arial" Width="114" Height="34"/>
+        <Button Content="بلو بيري" HorizontalAlignment="Left" Margin="486,656,0,0" VerticalAlignment="Top" Background="Black" BorderBrush="#FFAAAC59" Foreground="White" Padding="5,5,5,5" Click="milk_cheak_blue_burry" FontWeight="Bold" FontSize="20" FontFamily="Arial" Width="114" Height="34"/>
+        <Button Content="فراولة" HorizontalAlignment="Left" Margin="367,656,0,0" VerticalAlignment="Top" Background="Black" BorderBrush="#FFAAAC59" Foreground="White" Padding="5,5,5,5" Click="milk_cheak_strawberry" FontWeight="Bold" FontSize="20" FontFamily="Arial" Width="114" Height="34"/>
+        <Label Content="فريشات" HorizontalAlignment="Left" Margin="605,695,0,0" VerticalAlignment="Top" FontWeight="Bold" FontFamily="Arial" FontSize="30" Height="42" Width="114"/>
+        <Button Content="مياه معدنية" HorizontalAlignment="Left" Margin="606,742,0,0" VerticalAlignment="Top" Background="Black" BorderBrush="#FFAAAC59" Foreground="White" Padding="5,5,5,5" Click="water_btn" FontWeight="Bold" FontSize="20" FontFamily="Arial" Width="114" Height="34"/>
+        <Button Content="ليمون" HorizontalAlignment="Left" Margin="486,742,0,0" VerticalAlignment="Top" Background="Black" BorderBrush="#FFAAAC59" Foreground="White" Padding="5,5,5,5" Click="lemon_btn" FontWeight="Bold" FontSize="20" FontFamily="Arial" Width="114" Height="34"/>
+        <Button Content="ليمون نعناع" HorizontalAlignment="Left" Margin="367,742,0,0" VerticalAlignment="Top" Background="Black" BorderBrush="#FFAAAC59" Foreground="White" Padding="5,5,5,5" Click="lemon_nenaa_btn" FontWeight="Bold" FontSize="20" FontFamily="Arial" Width="114" Height="34"/>
+        <Button Content="زبادى عسل" HorizontalAlignment="Left" Margin="248,742,0,0" VerticalAlignment="Top" Background="Black" BorderBrush="#FFAAAC59" Foreground="White" Padding="5,5,5,5" Click="yourt_honey" FontWeight="Bold" FontSize="20" FontFamily="Arial" Width="114" Height="34"/>
+        <Button Content="زبادى فليفر" HorizontalAlignment="Left" Margin="129,742,0,0" VerticalAlignment="Top" Background="Black" BorderBrush="#FFAAAC59" Foreground="White" Padding="5,5,5,5" Click="yourt_flavor" FontWeight="Bold" FontSize="20" FontFamily="Arial" Width="114" Height="34"/>
+        <Button Content="عناب" HorizontalAlignment="Left" Margin="10,742,0,0" VerticalAlignment="Top" Background="Black" BorderBrush="#FFAAAC59" Foreground="White" Padding="5,5,5,5" Click="enapp" FontWeight="Bold" FontSize="20" FontFamily="Arial" Width="114" Height="34"/>
+        <Label Content="الكمية" HorizontalAlignment="Left" Margin="1121,451,0,0" VerticalAlignment="Top" FontWeight="Bold" FontFamily="Arial" FontSize="30" Height="42" Width="69"/>
+        <TextBox HorizontalAlignment="Left" Margin="842,454,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="274" Height="39" FontWeight="Bold" FontFamily="Arial" FontSize="20" TextAlignment="Center"/>
+        <Button Content="تاكيد الشراء" HorizontalAlignment="Left" Margin="942,546,0,0" VerticalAlignment="Top" Background="Black" BorderBrush="#FFAAAC59" Foreground="White" Padding="5,5,5,5" Click="buy_drink_btn" FontWeight="Bold" FontSize="20" FontFamily="Arial" Width="126" Height="34"/>
 
     </Grid>
 </Window>

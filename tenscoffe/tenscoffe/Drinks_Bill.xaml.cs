@@ -266,5 +266,90 @@ namespace tenscoffe
         {
 
         }
+
+
+        // الازرار الخاصة بقسم الميلك شيك
+
+        private void milk_cheak_vanella(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void milk_cheak_caramella(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void milk_cheak_coconutes(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void milk_cheak_orio(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void milk_cheak_sneckries(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void milk_cheak_kitkat(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void milk_cheak_morro(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void milk_cheak_blue_burry(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void milk_cheak_strawberry(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+
+        //  الازرار الخاصة بقسم الفريشات
+        private void water_btn(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void lemon_btn(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void lemon_nenaa_btn(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void yourt_honey(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void yourt_flavor(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void enapp(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void buy_drink_btn(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
